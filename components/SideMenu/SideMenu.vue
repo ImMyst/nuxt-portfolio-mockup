@@ -98,6 +98,9 @@
         }
         }
       }
+      .nuxt-link-exact-active a {
+        color: white;
+      }
     }
   }
 
