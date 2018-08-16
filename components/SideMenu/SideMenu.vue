@@ -86,7 +86,6 @@
         a {
           width: 100%;
           text-transform: uppercase;
-          text-decoration: none;
           font-weight: 800;
           line-height: 1.5;
           letter-spacing: .05rem;
