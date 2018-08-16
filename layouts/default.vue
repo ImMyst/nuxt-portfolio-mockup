@@ -28,6 +28,17 @@ export default {
     margin: 0;
   }
 
+  h1 {
+    font-weight: 700;
+  }
+
+  h1,
+  h2,
+  h3,
+  .sub-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+  }
+
   .main-content {
     margin-left: 20rem;
 

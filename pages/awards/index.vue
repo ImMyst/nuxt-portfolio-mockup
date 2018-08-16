@@ -1,5 +1,5 @@
 <template>
-  <h1>Awards</h1>
+  <h2>Awards</h2>
 </template>
 
 <style lang="scss" scoped>
