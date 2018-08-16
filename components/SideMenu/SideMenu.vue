@@ -100,8 +100,11 @@
       }
       .nuxt-link-exact-active a {
         color: white;
+          &:hover,
+          &:active {
+            color: white;
       }
     }
   }
-
+}
 </style>
