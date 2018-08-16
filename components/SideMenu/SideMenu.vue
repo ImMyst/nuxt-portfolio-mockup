@@ -84,7 +84,7 @@
         width: 87%;
 
         a {
-          width: 87%;
+          width: 100%;
           text-transform: uppercase;
           text-decoration: none;
           font-weight: 800;
