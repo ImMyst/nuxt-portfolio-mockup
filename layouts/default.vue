@@ -57,6 +57,7 @@ export default {
   .main-content {
     margin-left: 20rem;
     height: 100vh;
+    max-width: 70rem;
     overflow: hidden;
     display: flex;
   }
