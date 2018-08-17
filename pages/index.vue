@@ -35,7 +35,7 @@
 <style lang="scss" scoped>
   .about {
     margin: auto 0 auto 0;
-    margin-top: 18.5rem;
+    margin-top: 16rem;
     h1 {
       margin: 0;
       text-transform: uppercase;
