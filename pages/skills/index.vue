@@ -1,5 +1,5 @@
 <template>
-  <h1>Skills</h1>
+  <h2>Skills</h2>
 </template>
 
 <style lang="scss" scoped>
