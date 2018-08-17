@@ -49,6 +49,20 @@
     left: 0;
     float: left;
     background-color: #e3593f;
+    animation: animAside .8s forwards 0s ease-in-out;
+
+
+    @keyframes animAside{
+    0%{
+        transform: translateX(-17rem);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(xx) translateX(0);
+        opacity: 1;
+        }
+    }
+
 
     .avatar {
       margin-top: 15rem;
