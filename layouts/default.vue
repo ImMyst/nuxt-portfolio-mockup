@@ -51,7 +51,9 @@ export default {
   }
 
   .text-primary {
-    color: #e3593f;
+    background: -webkit-linear-gradient(#FF4B2B, #FF416C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .main-content {
