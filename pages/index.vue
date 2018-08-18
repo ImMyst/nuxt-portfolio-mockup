@@ -35,7 +35,7 @@
 <style lang="scss" scoped>
   .about {
     margin: auto 0 auto 0;
-    margin-top: 16rem;
+    margin-top: 20rem;
     animation: animSection .8s forwards 0s ease-in-out;
 
     @keyframes animSection{
