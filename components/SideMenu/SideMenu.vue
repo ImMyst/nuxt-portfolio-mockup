@@ -48,19 +48,20 @@
     top: 0;
     left: 0;
     float: left;
-    background-color: #e3593f;
+    background: -webkit-linear-gradient(to top, #FF4B2B, #FF416C);
+    background: linear-gradient(to top, #FF4B2B, #FF416C);
     animation: animAside .8s forwards 0s ease-in-out;
 
 
-    @keyframes animAside{
-    0%{
+    @keyframes animAside {
+      0% {
         transform: translateX(-17rem);
         opacity: 0;
-        }
-    100%{
+      }
+      100% {
         transform: rotate(xx) translateX(0);
         opacity: 1;
-        }
+      }
     }
 
 
@@ -79,7 +80,7 @@
       background-size: cover;
       background-position: center;
       border-radius: 50%;
-      border: 8px solid #e97f6b;
+      border: 8px solid #ff5a3d;
     }
 
     ul {
@@ -108,16 +109,17 @@
           &:hover,
           &:active {
             color: rgba(255, 255, 255, .7)
-        }
+          }
         }
       }
       .nuxt-link-exact-active a {
         color: white;
-          &:hover,
-          &:active {
-            color: white;
+        &:hover,
+        &:active {
+          color: white;
+        }
       }
     }
   }
-}
+
 </style>

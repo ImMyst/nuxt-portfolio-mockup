@@ -35,18 +35,18 @@
 <style lang="scss" scoped>
   .about {
     margin: auto 0 auto 0;
-    margin-top: 16rem;
+    margin-top: 20rem;
     animation: animSection .8s forwards 0s ease-in-out;
 
-    @keyframes animSection{
-    0%{
+    @keyframes animSection {
+      0% {
         transform: translateY(-5rem);
         opacity: 0;
-        }
-    100%{
+      }
+      100% {
         transform: rotate(xx) translateY(0);
         opacity: 1;
-        }
+      }
     }
     h1 {
       margin: 0;
@@ -78,7 +78,8 @@
       margin-right: 1.5rem;
       line-height: 3.9rem;
       &:hover {
-        background-color: #e3593f;
+        background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+        background: linear-gradient(to right, #FF4B2B, #FF416C);
       }
       i {
         font-size: 1.5rem;
