@@ -31,7 +31,8 @@ body {
 h1,
 h2,
 h3,
-.sub-heading {
+.sub-heading,
+.lead {
   font-family: "Saira Extra Condensed", sans-serif;
   color: #343a40;
 }
@@ -49,6 +50,11 @@ a {
   color: white;
 }
 
+.lead {
+  font-size: 1.5rem;
+  color: #868e96;
+}
+
 .text-primary {
   background: -webkit-linear-gradient(#ff4b2b, #ff416c);
   -webkit-background-clip: text;
@@ -59,7 +65,6 @@ a {
   margin-left: 20rem;
   height: 100vh;
   max-width: 70rem;
-  overflow: hidden;
   display: flex;
 }
 </style>
