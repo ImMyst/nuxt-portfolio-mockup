@@ -26,66 +26,61 @@
 </template>
 
 <script>
-  export default {
-
-  }
-
+export default {};
 </script>
 
 <style lang="scss" scoped>
-  .about {
-    margin: auto 0 auto 0;
-    margin-top: 20rem;
-    animation: animSection .8s forwards 0s ease-in-out;
+.about {
+  margin: auto 0 auto 0;
+  margin-top: 20rem;
+  animation: animSection 0.8s forwards 0s ease-in-out;
 
-    @keyframes animSection {
-      0% {
-        transform: translateY(-5rem);
-        opacity: 0;
-      }
-      100% {
-        transform: rotate(xx) translateY(0);
-        opacity: 1;
-      }
+  @keyframes animSection {
+    0% {
+      transform: translateY(-5rem);
+      opacity: 0;
     }
-    h1 {
-      margin: 0;
-      text-transform: uppercase;
-      font-size: 6rem;
-      font-weight: 700;
-      line-height: 5.5rem;
-    }
-    h3 {
-      margin: 0;
-      color: #868e96;
-      text-transform: uppercase;
-      font-size: 1.5rem;
-      font-weight: 500;
-      margin-bottom: 3rem;
-    }
-    p {
-      font-size: 1.15rem;
-      line-height: 1.5rem;
-      margin-bottom: 3rem;
-    }
-    .social {
-      display: inline-block;
-      height: 3.5rem;
-      width: 3.5rem;
-      border-radius: 50%;
-      background-color: #495057;
-      text-align: center;
-      margin-right: 1.5rem;
-      line-height: 3.9rem;
-      &:hover {
-        background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-        background: linear-gradient(to right, #FF4B2B, #FF416C);
-      }
-      i {
-        font-size: 1.5rem;
-      }
-
+    100% {
+      transform: rotate(xx) translateY(0);
+      opacity: 1;
     }
   }
-
+  h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+  }
+  h3 {
+    margin: 0;
+    color: #868e96;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+  p {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .social {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    background-color: #495057;
+    text-align: center;
+    margin-right: 1.5rem;
+    line-height: 3.9rem;
+    &:hover {
+      background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+      background: linear-gradient(to right, #ff4b2b, #ff416c);
+    }
+    i {
+      font-size: 1.5rem;
+    }
+  }
+}
 </style>
