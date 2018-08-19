@@ -53,6 +53,22 @@
 </template>
 
 <style lang="scss" scoped>
+@keyframes animSection {
+  0% {
+    transform: translateY(5rem);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx) translateY(0);
+    opacity: 1;
+  }
+}
+
+.experience {
+  margin: auto 0 auto 0;
+  animation: animSection 0.8s forwards 0s ease-in-out;
+}
+
 h2 {
   text-transform: uppercase;
   margin-top: 2rem;
