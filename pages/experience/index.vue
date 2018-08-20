@@ -79,6 +79,7 @@ article {
   margin-bottom: 2rem;
   .right {
     min-width: 18rem;
+    text-align: right;
   }
 
   h3 {
