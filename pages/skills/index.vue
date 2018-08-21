@@ -27,4 +27,55 @@
 </template>
 
 <style lang="scss" scoped>
+.skills {
+  margin: auto 0 auto 0;
+  margin-top: 15rem;
+  animation: animSection 0.8s forwards 0s ease-in-out;
+}
+@keyframes animSection {
+  0% {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx) translateY(0);
+    opacity: 1;
+  }
+}
+h2 {
+  text-transform: uppercase;
+  margin-top: 2rem;
+  font-size: 3.5rem;
+}
+
+.lead {
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+}
+
+.icons {
+  color: #868e96;
+  i {
+    margin-right: 1.5rem;
+    &:hover {
+      background: linear-gradient(to top, #ff4b2b, #ff416c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    color: #868e96;
+    line-height: 1.5rem;
+    i {
+      margin-right: 0.5rem;
+      margin-left: 1rem;
+    }
+  }
+}
 </style>
