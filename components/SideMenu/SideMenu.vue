@@ -1,5 +1,6 @@
 <template>
   <aside>
+    <transition name="fade"></transition>
     <nuxt-link class="avatar" to="/" tag="a">
       <div class="avatar-image" :style="{backgroundImage: 'url(' + image + ')'}"></div>
     </nuxt-link>
