@@ -30,17 +30,6 @@
 .skills {
   margin: auto 0 auto 0;
   margin-top: 15rem;
-  animation: animSection 0.8s forwards 0s ease-in-out;
-}
-@keyframes animSection {
-  0% {
-    transform: translateY(-5rem);
-    opacity: 0;
-  }
-  100% {
-    transform: rotate(xx) translateY(0);
-    opacity: 1;
-  }
 }
 h2 {
   text-transform: uppercase;
